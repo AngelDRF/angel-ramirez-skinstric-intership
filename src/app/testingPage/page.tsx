@@ -292,7 +292,7 @@ export default function Page() {
         </Link>
 
         {state.step === 3 && (
-          <Link href="/result" className="inline-block">
+          <Link href="/resultPage" className="inline-block">
             <AnimatedProcessBtn show={state.step === 3} />
           </Link>
         )}
