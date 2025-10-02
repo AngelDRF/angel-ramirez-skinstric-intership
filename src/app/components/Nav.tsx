@@ -13,12 +13,12 @@ const Nav = () => {
           href="/"
           
         >
-          SKINSTRIC
+          SkinStric
         </Link>
 
         <Image src={LeftBracket} alt="left-bracket" className="w-[4px] h-[17px]"/>
         <p className="text-[#1a1b1c83] text-opacity-70  font-semibold text-sm ml-1.5 mr-1.5">
-          INTRO
+          Home
         </p>
         <Image src={RightBracket} alt="right-bracket" className="w-[4px] h-[17px]"/>
       </div>

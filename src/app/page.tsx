@@ -26,7 +26,7 @@ export default function Home() {
         </p>
 
         <div className="z-10 mt-4 lg:hidden">
-          <a href="/testing">
+          <a href="/testingPage">
             <button className="relative flex items-center gap-4 hover:scale-105 duration-300">
               <span className="text-[12px] font-bold cursor-pointer">
                 ENTER EXPERIENCE
