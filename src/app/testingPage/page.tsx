@@ -49,7 +49,7 @@ async function submitForm(
         step: 1,
         errors: {
           name: [
-            "Please enter a valid name without numbers or special characters",
+            "You can't use numbers or special characters",
           ],
         },
       };
@@ -88,8 +88,6 @@ async function submitForm(
         console.log("Full API Response:", result);
 
         if (result.success) {
-          console.log("Success Message:", result.message);
-          console.log(`SUCCESS: Added ${name} from ${prevState.location}`);
           return {
             step: 3,
             name,
@@ -139,7 +137,7 @@ async function submitForm(
         step: 2,
         errors: {
           location: [
-            "Please enter a valid city without numbers or special characters",
+            "You can't use numbers or special characters",
           ],
         },
       };
